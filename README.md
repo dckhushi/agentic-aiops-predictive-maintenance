@@ -61,37 +61,6 @@ Each layer is modular and decoupled to support scalability, monitoring, and futu
 
 ---
 
-## 📂 Repository Structure
-
-agentic-aiops-predictive-maintenance/
-│
-├── agent/ # Agentic AI decision logic
-│ ├── rules.py
-│ ├── prompts.py
-│ └── agent_controller.py
-│
-├── aiops/ # Monitoring and retraining logic
-│ ├── drift_detection.py
-│ └── retraining_trigger.py
-│
-├── dashboard/ # Streamlit dashboard
-│ └── app.py
-│
-├── models/ # Saved trained models
-│ └── transformer/
-│
-├── notebooks/ # Experiments and model training
-│
-├── data/ # Raw and processed datasets
-│
-├── utils/ # Utility modules (scaffolded for extensibility)
-│
-└── README.md
-
-
-
----
-
 ## ▶️ How to Run the Dashboard
 
 1. Clone the repository
@@ -130,4 +99,5 @@ Focused on building reliable, explainable, and production-oriented AI systems.
 📜 License
 
 This project is intended for academic, research, and portfolio use.
+
 

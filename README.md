@@ -20,21 +20,7 @@ The result is a **decision intelligence system**, not just a machine learning mo
 
 ---
 
-## 🧠 System Architecture
 
-Sensor Time-Series Data
-↓
-Preprocessing & Sliding Window Generation
-↓
-LSTM / Temporal Transformer (RUL Prediction)
-↓
-AIOps Layer (Data Drift Detection, Performance Signals)
-↓
-Rule-Based Agentic AI
-↓
-Maintenance Decision + Explanation
-↓
-Streamlit Dashboard (Human-in-the-Loop)
 
 
 
@@ -144,3 +130,4 @@ Focused on building reliable, explainable, and production-oriented AI systems.
 📜 License
 
 This project is intended for academic, research, and portfolio use.
+
